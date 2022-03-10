@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+.cardButton{
+    width:70px;
+    height:120px;
+    border-radius:15px;
+    margin:7.5px;
+    border-width:5px;
+    border-style:solid;
+    font-family: 'PT Sans', sans-serif;
+    font-size:15px
+}
+.blue{
+    border-color:blue;
+    background-color:cornflowerblue;
+}
+.red{
+    border-color:red;
+    background-color:lightcoral;
+}
+.green{
+    border-color:green;
+    background-color:lightgreen;
+}
+.yellow{
+    border-color:yellow;
+    background-color:khaki;
+}
+.wild{
+    border-color:green blue yellow red;
+    background-image:linear-gradient(to bottom right, lightcoral,khaki,lightgreen,cornflowerblue);
+}
+
